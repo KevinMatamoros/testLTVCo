@@ -1,0 +1,27 @@
+.icon-logo {
+    background-image: url('../../SVGs/Logo.svg');
+    background-repeat: no-repeat;
+    width: 173px;
+    height: 25px;
+}
+
+.icon-user {
+    background-image: url('../../SVGs/icn_person.svg');
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
+.icon-search {
+    background-image: url('../../SVGs/icn_search.svg');
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
+.icon-lock {
+    background-image: url('../../SVGs/lock.svg');
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 19px;
+}

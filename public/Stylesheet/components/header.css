@@ -1,0 +1,38 @@
+#infoSection {
+    padding-bottom: 55px;
+}
+
+.header {
+    background-color: #004A80;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: HelveticaNeue-Bold;
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+} 
+
+.primary-span {
+    padding-top: 10px;
+    font-family: HelveticaNeue-Bold;
+    font-size: 24px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+}
+
+.secondary-span {
+    padding-top: 10px;
+    font-family: HelveticaNeue-Bold;
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+}
+
