@@ -1,0 +1,70 @@
+@import './components/header.css';
+@import './components/toolbar.css';
+@import './components/content.css';
+@import './components/footer.css';
+
+
+
+html, body { overflow-x: hidden; }
+/* GLOBAL STYLES */
+
+.isClose {
+    display: none ;
+}
+
+.background-primary {
+    background-color: #004A80;
+}
+
+/* SEARCH BUTTON */
+#searchSection {
+    padding: 20px 0px 20px 0px;
+}
+
+::-webkit-input-placeholder { 
+    font-size: 18px ;
+    padding-left: 5px;
+    font-family: HelveticaNeue-Bold;
+    color: #9B9B9B;
+    letter-spacing: 2px;
+    line-height: 18px;
+}
+
+.input-text {
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+    font-size: 18px ;
+    padding-left: 10px;
+    border-radius: 3px;
+    width: 780px;
+    height: 70px !important;
+    border-radius: 6px !important;
+    border-color: transparent;
+}
+
+.input-text :hover {
+    background: #F6BC25;
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    font-size: 18px ;
+    padding-left: 10px;
+    border-radius: 3px;
+    width: 780px;
+    height: 70px !important;
+    border-radius: 6px !important;
+    border-color: transparent;
+}
+
+.button-go {
+    margin-left: 10px;
+    width: 180px;
+    height: 70px;
+    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 5px;
+    border-color: transparent;
+    font-family: HelveticaNeue-Bold;
+    font-size: 24px;
+    color: #004A80;
+    letter-spacing: 1px;
+    text-align: center;
+}

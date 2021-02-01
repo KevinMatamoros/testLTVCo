@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/Stylesheet/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <title>FrontEndJr-Test_LP</title>
+</head>
+
+<body>
+    <div class="header container-fluid">
+        <nav class="navbar navbar-light ml-5 mr-5 pl-5 pr-5">
+            <i class="icon-logo"></i>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <i class="icon-search mr-4 float-right"></i>
+                </li>
+                <li class="nav-item">
+                    <i class="icon-user float-right"></i>
+                </li>
+            </ul>
+        </nav>
+        <div id="infoSection" class="container ml-5 mr-5 pl-5 pr-5">
+            <h1>Search Any Email Address</h1>
+            <span class="primary-span">Start Here</span>
+            <span class="secondary-span"> - Look up the owner's name, photos and online profiles. See what you find!</span>
+            <div id="searchSection" class="input-group input-group-lg">
+                <input class="input-text form-control" type="email" name="searchUser" aria-label="Large" id="searchUser" aria-describedby="inputGroup-sizing-sm"
+                    placeholder="Email">
+                <input type="submit" id="submit" onclick="loadInfo()" class="button-go" value="GO!">
+            </div>
+            <div>
+                <i class="icon-lock"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- LANDING -->
+    <div id="content" class="container-fluid pr-5 pl-5">
+
+    </div>
+    <!-- LOADING -->
+    <div id="loading" class="text-center isClose container-fluid px-5">
+        <img src="/loading_spinner.gif" alt="loading_spinner" width="154" height="154">
+        <h2 class="subtitle-loading">Please wait a moment...</h2>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="results" class="container-fluid isClose px-0 py-5">
+        <div id="fetchResult"></div>
+    </div>
+
+    <!-- FOOTER  -->
+    <footer class="container-fluid ">
+        <div class="row">
+            <div class="col-9">
+                <span class="footer-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
+                </span>
+            </div>
+            <div class="col">
+                <span class="footer-policy float-right">Terms | Privacy</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"  src="../js/data.js"></script>
+    <script type="text/javascript" src="../js/functions.js"></script>
+</body>
+
+</html>
