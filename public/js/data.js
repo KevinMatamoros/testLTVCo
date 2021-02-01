@@ -1,32 +1,107 @@
 contentData = `
-<h1 class="title">Reverse Email Lookup</h1>
-<h2 class="subtitle px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
-<div class="container-fluid overflow-hidden px-5">
-    <div class="row gy-5">
-        <div class="col-6">
-            <div class="row">
-                <div>
-                    <span>1</span>
+    <div class="container-fluid pr-5 pl-5">
+        <h1 class="title">Reverse Email Lookup</h1>
+        <h2 class="subtitle px-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
+        <div class="container-fluid overflow-hidden px-5">
+            <div class="row gy-5">
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="ball">
+                                    <label class="number">1</label>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h2 class="ball-title">Lorem Ipsum</h2>
+                                <h4 class="ball-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3"> 
+                                <div class="ball">
+                                    <label class="number">4</label>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h2 class="ball-title">Lorem Ipsum</h2>
+                                <h4 class="ball-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-5">
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="ball">
+                                    <label class="number">2</label>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h2 class="ball-title">Lorem Ipsum</h2>
+                                <h4 class="ball-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3"> 
+                                <div class="ball">
+                                    <label class="number">5</label>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h2 class="ball-title">Lorem Ipsum</h2>
+                                <h4 class="ball-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-5">
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="ball">
+                                    <label class="number">3</label>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h2 class="ball-title">Lorem Ipsum</h2>
+                                <h4 class="ball-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3"> 
+                                <div class="ball">
+                                    <label class="number">6</label>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <h2 class="ball-title">Lorem Ipsum</h2>
+                                <h4 class="ball-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-6">
-            <div class="p-3 border bg-light">Custom column padding</div>
-        </div>
     </div>
-    <div class="row gy-5">
-        <div class="col-6">
-            <div class="p-3 border bg-light">Custom column padding</div>
-        </div>
-        <div class="col-6">
-            <div class="p-3 border bg-light">Custom column padding</div>
-        </div>
-    </div>
-</div>
 `;
 
 noResultsData = `

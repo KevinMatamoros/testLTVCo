@@ -52,3 +52,32 @@
     text-align: center;
     line-height: 32px;
 }
+
+.ball {
+    background: #004A80;
+    padding: 10px 36px 5px 31px;
+    border-radius: 50%;
+}
+
+.ball .number {
+    font-family: HelveticaNeue-Bold;
+    font-size: 48px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.ball-title {
+    font-family: HelveticaNeue-Bold;
+    font-size: 22px;
+    color: #004A80;
+    letter-spacing: 0;
+}
+
+.ball-subtitle {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+}
